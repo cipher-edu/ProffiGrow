@@ -8,3 +8,6 @@ class IndexView(View):
     def get(self, request):
         template = loader.get_template('index-saas.html')
         return HttpResponse(template.render({}, request))
+    
+
+    
